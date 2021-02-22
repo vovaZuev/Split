@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void PrintArray(int* arr, const int n);
@@ -36,9 +36,9 @@ int main()
 			cnt_even++;
 		}
 	}
-	cout << "Èñõîäíûé ìàññèâ: "; PrintArray(arr, n);
-	cout << "Ìàññèâ ÷¸òíûõ ÷èñåë: "; PrintArray(even, n_even);
-	cout << "Ìàññèâ íå÷¸òíûõ ÷èñåë: "; PrintArray(odd, n_odd);
+	cout << "Ð˜ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: "; PrintArray(arr, n);
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ñ‡Ñ‘Ñ‚Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: "; PrintArray(even, n_even);
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ð½ÐµÑ‡Ñ‘Ñ‚Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: "; PrintArray(odd, n_odd);
 }
 
 void PrintArray(int* arr, const int n)
